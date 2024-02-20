@@ -1,0 +1,11 @@
+/* Import the Font Awesome styles */
+/* @import '@fortawesome/fontawesome-free/css/all.css'; */
+
+.Appjs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid green;
+    height: 100%;
+}

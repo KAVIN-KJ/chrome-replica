@@ -1,0 +1,44 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+.tabcontainer{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    width: fit-content;
+    min-width: 220px;
+    border-radius: 50px;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.tabcontainer
+.Title{
+    flex: 1;
+    margin-left: 10px;
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+#Tab{
+    border-radius: 20px 20px 20px 20px;
+}
+.Tab{
+    margin-right: 5px;
+
+}
+.Tab:hover{
+    background-color: rgba(240, 248, 255, 0.329);
+}
+/* .Tab{
+    background-color: rgb(178, 189, 207);
+    border: 2px solid red;
+    height: 40px;
+    margin: 5px;
+} */
+.TabActive{
+    margin: 5px;
+    scale: 1.03;
+    box-shadow: 0px 0px 5px rgb(178, 189, 207);
+    background-color: rgb(178, 189, 207);
+}

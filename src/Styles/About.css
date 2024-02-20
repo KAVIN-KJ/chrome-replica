@@ -1,0 +1,53 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    animation: about 2s ease;
+}
+
+@keyframes about {
+    0%{
+
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+    padding: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid rgb(178, 189, 207);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+.logo{
+    width: auto;
+    margin: 20px;
+    height: 100px;
+}
+
+.aboutParagraph{
+    text-align: justify;
+    margin: 20px;
+}
+
+#bolt{
+    position: absolute;
+    left: 50vw;
+    top: 22vh;
+    scale: 25;
+    opacity: 0.4;
+    color: rgb(178, 189, 207);
+    z-index: -1;
+}

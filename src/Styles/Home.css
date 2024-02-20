@@ -1,0 +1,24 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    padding: 0px;
+    animation: home 2s ease;
+}
+
+@keyframes home {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+.image{
+    width:auto;
+    height: 120px;
+    margin-bottom: 30px;
+}
